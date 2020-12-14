@@ -6184,3 +6184,28 @@ header nav ul li a:hover {
 header .banner img {
   width: 100%;
 }
+
+.citation {
+  background-color: #e8e6e0;
+  text-align: center;
+  padding: 40px 15%;
+}
+
+.citation h2 {
+  color: gray;
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+.citation h2 span:first-of-type {
+  background-color: #1e90ff;
+  color: white;
+}
+
+.citation h2 span:nth-of-type(2) {
+  color: #1e90ff;
+}
+
+.citation h2 span:last-of-type {
+  font-weight: bold;
+}
