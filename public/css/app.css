@@ -6139,8 +6139,166 @@ body {
   color: white;
 }
 
+header {
+  background-color: #363b47;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+header nav .logo a {
+  font-size: 40px;
+  color: white;
+  text-decoration: none;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  margin-bottom: 0;
+}
+
+header nav ul li {
+  padding: 10px;
+}
+
+header nav ul li a {
+  color: gray;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 15px;
+}
+
+header nav ul li a:hover {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: white;
+  background-color: #1e90ff;
+  cursor: pointer;
+}
+
+header .banner img {
+  width: 100%;
+}
+
+.citation {
+  background-color: #e8e6e0;
+  text-align: center;
+  padding: 40px 15%;
+}
+
+.citation h2 {
+  color: gray;
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+.citation h2 span:first-of-type {
+  background-color: #1e90ff;
+  color: white;
+}
+
+.citation h2 span:nth-of-type(2) {
+  color: #1e90ff;
+}
+
+.citation h2 span:last-of-type {
+  font-weight: bold;
+}
+
 .card .row {
   margin: 70px 12%;
   display: flex;
   flex-wrap: wrap;
+}
+
+.card .row:first-of-type {
+  justify-content: space-between;
+}
+
+.card .row:first-of-type .col {
+  width: 22%;
+  border-radius: 5px;
+  background-color: lightgray;
+  text-align: center;
+}
+
+.card .row:first-of-type .col i {
+  color: #1e90ff;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 30px;
+  background-color: white;
+  margin: 15px 0;
+}
+
+.card .row:first-of-type .col h4 {
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.card .row:first-of-type .col a {
+  color: #1e90ff;
+  text-decoration: none;
+}
+
+.card .row:first-of-type .col p {
+  margin-bottom: 20%;
+}
+
+.card .row:last-of-type .left-text {
+  width: 40%;
+}
+
+.card .row:last-of-type .left-text h3 {
+  color: gray;
+  font-size: 20px;
+}
+
+.card .row:last-of-type .left-text p {
+  color: gray;
+}
+
+.card .row:last-of-type .left-text p:last-of-type {
+  font-weight: bold;
+}
+
+.card .row:last-of-type .left-text button {
+  background-color: #1e90ff;
+  color: white;
+  border: 0;
+  padding: 15px;
+  border-radius: 5%;
+  cursor: pointer;
+}
+
+.card .row:last-of-type .right-card {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card .row:last-of-type .right-card .contenu {
+  width: 33%;
+  background-color: #38485f;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+}
+
+.card .row:last-of-type .right-card .contenu img {
+  width: 100%;
+}
+
+.card .row:last-of-type .right-card .contenu h4 {
+  color: white;
+  text-transform: uppercase;
+}
+
+.card .row:last-of-type .right-card .contenu p {
+  color: lightgray;
 }

@@ -3,3 +3,59 @@
         margin: 70px 12%
         display: flex
         flex-wrap: wrap
+        &:first-of-type
+            justify-content: space-between
+            .col 
+                width: 22%
+                border-radius: 5px
+                background-color: lightgray
+                text-align: center
+                i 
+                    color: $bleuCentral
+                    padding: 10px
+                    border-radius: 50%
+                    font-size: 30px
+                    background-color: white
+                    margin: 15px 0
+                h4 
+                    text-transform: uppercase
+                    margin-bottom: 0
+                a
+                    color: $bleuCentral
+                    text-decoration: none
+                p 
+                    margin-bottom: 20%
+        &:last-of-type
+            .left-text
+                width: 40%
+                h3 
+                    color: gray 
+                    font-size: 20px
+                p 
+                    color: gray
+                    &:last-of-type
+                        font-weight: bold
+                button 
+                    background-color: $bleuCentral
+                    color: white
+                    border: 0
+                    padding: 15px
+                    border-radius: 5%
+                    cursor: pointer
+            .right-card
+                width: 60%
+                display: flex
+                justify-content: space-between
+                .contenu 
+                    width: 33%
+                    background-color: #38485f
+                    text-align: center
+                    color: white
+                    border-radius: 5px
+                    img
+                        width: 100%
+                    h4 
+                        color: white
+                        text-transform: uppercase
+                    p 
+                        color: lightgray
