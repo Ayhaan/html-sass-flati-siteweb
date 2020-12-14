@@ -6250,6 +6250,7 @@ header .banner img {
 .card .row:last-of-type .right-card {
   width: 60%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 .card .row:last-of-type .right-card .contenu {
@@ -6300,6 +6301,68 @@ footer .copy p {
   text-align: center;
   margin: 0;
   color: gray;
+}
+
+@media screen and (max-width: 760px) {
+  header nav ul {
+    display: none;
+  }
+
+  .citation {
+    padding: 40px 3%;
+  }
+  .citation h2 {
+    font-size: 30px;
+  }
+
+  .card .row {
+    margin: 70px 3%;
+  }
+  .card .row:first-of-type .col {
+    width: 99%;
+    margin-bottom: 10px;
+  }
+  .card .row:last-of-type .left-text {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .card .row:last-of-type .right-card {
+    width: 100%;
+  }
+  .card .row:last-of-type .right-card .contenu {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  footer .social {
+    padding: 30px 2%;
+  }
+}
+@media screen and (min-width: 761px) and (max-width: 991px) {
+  header nav ul {
+    display: none;
+  }
+
+  .card .row {
+    margin: 70px 3%;
+  }
+  .card .row:first-of-type .col {
+    width: 49%;
+    margin-bottom: 10px;
+  }
+  .card .row:last-of-type .left-text {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .card .row:last-of-type .right-card {
+    width: 100%;
+  }
+
+  footer .social {
+    padding: 30px 15%;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
