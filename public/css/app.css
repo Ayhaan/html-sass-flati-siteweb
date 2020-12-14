@@ -6131,3 +6131,56 @@ body {
   margin: 0;
   font-family: "ubuntu";
 }
+
+.active {
+  background-color: #1e90ff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: white;
+}
+
+header {
+  background-color: #363b47;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+header nav .logo a {
+  font-size: 40px;
+  color: white;
+  text-decoration: none;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  margin-bottom: 0;
+}
+
+header nav ul li {
+  padding: 10px;
+}
+
+header nav ul li a {
+  color: gray;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 15px;
+}
+
+header nav ul li a:hover {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: white;
+  background-color: #1e90ff;
+  cursor: pointer;
+}
+
+header .banner img {
+  width: 100%;
+}
